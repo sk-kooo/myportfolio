@@ -1,0 +1,189 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/johannes-plenio-hvrpOmuMrAI-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo {
+    color: #ff7200;
+    font-size:35px;
+    font-family: 'Roboto', sans-serif;
+    float:left;
+    padding-left:20px;
+    padding-top:10px;
+}
+.menu {
+    width: 400px;
+    float: right;
+    height: 70px;
+    padding: 10px;
+}
+
+ul{
+    float:right;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+ul li{
+    list-style:none;
+    margin-right:62px;
+    margin-top:27px;
+    font-size:17px;
+}
+    ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size:20px;
+        transition:0.4s ease-in-out;
+
+    }
+    ul li a:hover{
+        color:#ff7200;
+    }
+.Info {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    color: white;
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+}
+    .Info .par {
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight:bolder;
+        letter-spacing: 1.0px;
+        line-height: 25px;
+    }
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+    .Info h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 65px;
+        padding-left: 20px;
+        margin-top: 10%;
+        letter-spacing: 2px;
+        color: white;
+        animation: shake 6.0s ease-in-out infinite;
+    }
+
+    .Info span {
+        color: #ff7200;
+        font-size: 65px;
+    }
+     .Info span:hover{
+      color:white;
+
+    }
+.form {
+    width: 250px;
+    height: 380px;
+    background-color: rgba(0,0, 0, 0.9);
+    position: absolute;
+    top: 300px;
+    left: 950px;
+    border-radius:20px;
+    padding:10px;
+}
+    .form h2 {
+        width: 220px;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        color: #ff7200;
+        text-align: center;
+        font-size: 23px;
+        background-color: white;
+        border-radius: 8px;
+        margin: 3px;
+        padding: 7px;
+    }
+    .form input {
+        width: 240px;
+        height: 40px;
+        background: transparent;
+        border-bottom: 2px solid #ff7200;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Roboto', sans-serif;
+        margin-top:10px;
+    }
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+}
+.buttn {
+    width: 240px;
+    height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.buttn a{
+    color:black;
+
+
+}
